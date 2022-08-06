@@ -12,7 +12,11 @@
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
-      "default": "./src/index.js"
+      "default": "./dist/index.js"
+    },
+    "./src": {
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
     }
   },
   "scripts": {
